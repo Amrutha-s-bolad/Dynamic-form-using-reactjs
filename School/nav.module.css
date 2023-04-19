@@ -1,0 +1,54 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 70px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    box-shadow: 0px 0px 4px rgb(19, 19, 19);
+
+}
+
+#nav>article{
+    height: 70px;
+    width:95%;
+    display: flex;
+}
+
+#nav>article>.Course{
+    height:70px;
+    width:30%;
+    background-color:white;
+
+}
+
+#nav>article>.Fees{
+    height:70px;
+    width:40%;
+    background-color:white;
+  
+}
+#nav>article>.Instructor{
+    height:70px;
+    width:30%;
+    background-color:white;
+    display: flex;
+    
+
+
+}
+
+#nav>article>.Branch{
+    height:70px;
+    width:30%;
+    background-color:white;
+    display: flex;
+    
+
+
+}
+
